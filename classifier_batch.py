@@ -112,3 +112,8 @@ classifier_history = full_model.fit(
 # Evaluar el modelo
 loss, accuracy = full_model.evaluate(X_test, y_test)
 print(f'Loss: {loss}, Accuracy: {accuracy}')
+
+Class  Precision  Sensitivity  Specificity  F1 Score
+0      NORMAL   0.915584     0.915584     0.942668  0.933002
+1  INTERICTAL   0.927731     0.927731     0.952009  0.920767
+2       ICTAL   0.982699     0.982699     0.995823  0.959459
